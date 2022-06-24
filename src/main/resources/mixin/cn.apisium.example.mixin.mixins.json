@@ -1,0 +1,10 @@
+{
+  "required": true,
+  "package": "cn.apisium.example.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "minVersion": "0.8",
+  "refmap": "PaperShelledPluginTemplate.refmap.json",
+  "mixins": [
+    "MinecraftServerMixin"
+  ]
+}

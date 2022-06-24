@@ -1,0 +1,5 @@
+{
+  "mixins": [
+    "cn.apisium.example.mixin.mixins.json"
+  ]
+}

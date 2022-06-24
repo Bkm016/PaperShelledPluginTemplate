@@ -1,0 +1,23 @@
+//file:noinspection GroovyAssignabilityCheck
+buildscript {
+    repositories {
+        maven { url "https://maven.fabricmc.net/" }
+    }
+}
+
+plugins {
+    id 'java'
+    id 'cn.apisium.papershelled' version '1.2.1'
+}
+
+group 'cn.apisium.example'
+
+dependencies {
+    compileOnly paperShelled.jar()
+    compileOnly paperShelled.lib()
+}
+
+paperShelled {
+    archiveClassifier = ''
+    jarUrl = 'https://papermc.io/api/v2/projects/paper/versions/1.18.1/builds/175/downloads/paper-1.18.1-175.jar'
+}
